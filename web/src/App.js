@@ -1,11 +1,12 @@
 import React from 'react';
 import './global.css';
 import './App.css';
-import './Sidebar.css'
+import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
-    <div id="App">
+    <div id="app">
       <aside>
         <strong>Cadastrar</strong>
         <form>
@@ -35,7 +36,55 @@ function App() {
         </form>
       </aside>
       <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://secure.gravatar.com/avatar/86b9e17da2d04a00fa59752498a0056e?s=180&d=identicon" alt="Guy fawkes"/>
+              <div className="user-info">
+                <strong>Guy Fawkes</strong>
+                <span>Unity3D, reactJS, React Native</span>
+              </div>
+            </header>
+            <p>Indie game developer, works with Unity3D and likes to test new frameworks and create random projects on the spare time.</p>
+            <a href="https://github.com/igorfel">Acessar perfil no Github</a>
+          </li>
 
+          <li className="dev-item">
+            <header>
+              <img src="https://secure.gravatar.com/avatar/86b9e17da2d04a00fa59752498a0056e?s=180&d=identicon" alt="Guy fawkes"/>
+              <div className="user-info">
+                <strong>Guy Fawkes</strong>
+                <span>Unity3D, reactJS, React Native</span>
+              </div>
+            </header>
+            <p>Indie game developer, works with Unity3D and likes to test new frameworks and create random projects on the spare time.</p>
+            <a href="https://github.com/igorfel">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://secure.gravatar.com/avatar/86b9e17da2d04a00fa59752498a0056e?s=180&d=identicon" alt="Guy fawkes"/>
+              <div className="user-info">
+                <strong>Guy Fawkes</strong>
+                <span>Unity3D, reactJS, React Native</span>
+              </div>
+            </header>
+            <p>Indie game developer, works with Unity3D and likes to test new frameworks and create random projects on the spare time.</p>
+            <a href="https://github.com/igorfel">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://secure.gravatar.com/avatar/86b9e17da2d04a00fa59752498a0056e?s=180&d=identicon" alt="Guy fawkes"/>
+              <div className="user-info">
+                <strong>Guy Fawkes</strong>
+                <span>Unity3D, reactJS, React Native</span>
+              </div>
+            </header>
+            <p>Indie game developer, works with Unity3D and likes to test new frameworks and create random projects on the spare time.</p>
+            <a href="https://github.com/igorfel">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
